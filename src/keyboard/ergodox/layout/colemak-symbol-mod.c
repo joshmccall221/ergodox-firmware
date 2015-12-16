@@ -30,10 +30,10 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
     _ctrlL,     _A,         _R,         _S,         _T,         _D,
     _shiftL,    _Z,         _X,         _C,         _V,         _B,         _tab,
     _guiL,      _grave,     _backslash, _altL,      1,
-    
+
                                                                 _ctrlL,     _altL,
                                                     _guiL,          0,      _home,
-                                                    _space,     _enter,     _end,
+                                                    _enter,      _del,      _end,
 
     // right hand
     _dash,      _6,         _7,         _8,         _9,         _0,         3,
@@ -44,7 +44,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 
     _altR,      _ctrlR,
     _pageU,     0,          _guiR,
-    _pageD,     _del,       _bs ),
+    _pageD,     _bs,       _space),
 
 
     // LAYOUT L1: function and symbol keys
